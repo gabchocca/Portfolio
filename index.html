@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio - Gabriel Chocca</title>
+
+  <!-- Fuente Poppins desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Enlace al archivo de estilos externo -->
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="header_list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="section_greating">
+    <h2>¡Hola! Aqui reportandose Gabriel</h2>
+    <p>Desarrollador junion de Android con Kotlin apasionado por el diseño y programacion.</p>
+  </section>
+
+  <section id="sobre-mi" class="mostrar">
+    <h2>Sobre mí</h2>
+    <div class="perfil">
+      <img src="img/perfil.jpg" alt="Foto de Juan Pérez" class="foto-perfil" />
+      <div class="descripcion">
+        <p>¡Hola! Soy <strong>Gabriel Chocca</strong>, estudiante de Ing. Sistemas, tengo experiencia trabajando en la UI de aplicaciones Android y en programacion de este mismo sector.</p>
+        <p>Mis metas principales son de mejorar mi bienestar integral y fisico, ademas de aprender machine learning y desarrollo de software. Ya que me apasiona muchisimo la programacion y el diseño.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <img src="img/proyecto1.png" alt="Captura del Proyecto 1" />
+      <h3>Temp Tracker</h3>
+      <p>Diseño simple para saber cual es la temperatura de una zona.</p>
+      <a href="https://github.com/gabchocca/TempTracker.git" target="_blank">Codigo Github</a>
+    </div>
+    <div class="proyecto">
+      <h3>Portfolio</h3>
+      <p>Diseño de mi portafolio personal</p>
+      <a href="https://github.com/gabchocca/TempTracker." target="_blank">Codigo Github de esta pagina</a>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+      <li>Android Studio</li>
+      <li>Python</li>
+      <li>Json</li>
+      <li>Xml</li>
+      <li>MySql</li>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Git y GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Juan Pérez. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Enlace al archivo JS externo -->
+  <script src="script.js"></script>
+</body>
+
+</html>
